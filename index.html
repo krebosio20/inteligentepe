@@ -12,21 +12,14 @@
 			}
 			body{
 				overflow:hidden;
-				background:#cc3;
 			}
-			#loadweb{
+			iframe{
 				width:100%;
 				height:100vh;
 			}
 		</style>
 	</head>
 	<body>
-		<div id="loadweb"></div>
-		<script src="./jquery.min.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('#loadweb').load('http://inteligente.pe');
-			});
-		</script>
+		<iframe src="http://inteligente.pe" width="100%" height="100%" frameborder="0" scrolling="yes"/>
 	</body>
 </html>
